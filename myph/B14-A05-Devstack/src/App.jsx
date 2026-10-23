@@ -109,7 +109,7 @@ function App() {
               {technologies.map(tech => (
                 <div key={tech.id} className="card bg-base-100 shadow-xl border border-base-200">
                   <figure className="px-4 pt-4">
-                    <img src={tech.icon} alt={tech.name} className="w-16 h-16 object-contain" />
+                    <img src={tech.icon} alt={tech.name} style={{ width:'39px',height:'39px'}} className="w-16 h-16 object-contain" />
                   </figure>
                   <div className="card-body">
                     <div className="flex justify-between items-center">
